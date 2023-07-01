@@ -1,0 +1,116 @@
+** 参考书籍和文档 **
+
+├── 经典书籍
+│   ├── 简单粗暴LaTeX【K.L Wu】.pdf
+│   ├── 了不起的Markdown.pdf
+│   ├── 一份简短的LaTeX数学指南.pdf
+│   ├── A guide to LATEX and Electronic Publishing_V3【Helmut Kopka】.pdf
+│   ├── A guide to LATEX and Electronic Publishing_V4【Helmut Kopka】.pdf
+│   ├── LaTeX-2e 完全学习手册【胡伟】.pdf
+│   ├── LaTeX-2e 文类和宏包学习手册【胡伟】.pdf
+│   ├── LaTeX科技论文写作简明教程【王伊蕾】.pdf
+│   ├── Latex科技排版入门_2018【潘建瑜】.pdf
+│   ├── LaTeX入门【刘海洋】.pdf
+│   ├── LaTeX 文档排版教程【吕荐瑞】.pdf
+│   ├── LaTeX -- A Document Preparation System 2e【Lamport--高清扫描】.pdf
+│   ├── LaTeX -- A Document Preparation System 2e【Lamport--文字版】.pdf
+│   ├── LaTeX Cookbook【Stefan Kottwitz】.pdf
+│   ├── LaTeX CookBook【wikibooks】.pdf
+│   ├── LaTeX in 24 Hours【Dilip Datta】.pdf
+│   ├── LaTeX Notes【包太雷】.pdf
+│   ├── lshort【2021】.pdf
+│   ├── Mathematical Typesetting with LaTeX【 TUG-Version 0.33】.pdf
+│   ├── Math into LaTeX--An Introduction to LaTeX and AMS-LaTeX【George Grätzer】.pdf
+│   ├── More Math Into LaTeX【George Grätzer】.pdf
+│   ├── Practical LaTeX【George Grätzer】.pdf
+│   ├── Science Research Writing A Guide for Non-Native Speakers of English【Hilary Glasman-Deal】.pdf
+│   ├── TeXbook【中译-Xianxian】.pdf
+│   ├── TeXbyTopic【PureEnglish】.pdf
+│   ├── TEX for the Impatient【汉化 -- Paul W.Abrahams】.pdf
+│   ├── TEX for the Impatient【Paul W.Abrahams】.pdf
+│   ├── TeX in Practice【Volume 1_ Basics】.pdf
+│   ├── TEX in Practice【Volume III_ Tokens,  Macros 】.pdf
+│   ├── TEX in Practice【Volume II_ Paragraphs, Math and Fonts】.pdf
+│   ├── TEX in Practice【Volume IV_ Output Routines, Tables】.pdf
+│   ├── The Advanced TEXbook【David Salomon】.pdf
+│   ├── The computer science of TeX and LaTeX【Eijkhout V. 】.pdf
+│   ├── The LaTeX Companion【2nd】.pdf
+│   └── The TEXbook.pdf
+├── 经典文档手册
+│   ├── 批量注册mathpix帐号方法.pdf
+│   ├── asymptote_1.79手册【汉化】.pdf
+│   ├── asymptote-faq-zh-cn.pdf
+│   ├── asymptote manual_2.38.pdf
+│   ├── asymptote_package【Charles Staats】.pdf
+│   ├── Axmath-Help.pdf
+│   ├── Beamer在线教程【汉化-黄旭华】.chm
+│   ├── BeamerUserGuide_V3.0【汉化-KiJoo】.pdf
+│   ├── BeamerUserGuide_V3.24【汉化-黄旭华】.pdf
+│   ├── elegantbook-cn.pdf
+│   ├── Geometry【汉化】.pdf
+│   ├── Guide_for_the_Use_of_the_International_System_of_Units.pdf
+│   ├── TikZ and Pgf Manual_2.10.pdf
+│   ├── TiKZ-Euclide_v5.02【中文】.pdf
+│   ├── TikZ&PGF笔记3.14b.pdf
+│   └── XeTeX字体调用简介.pdf
+├── Referrence_Docs
+│   ├── 希腊字幕对应表.pdf
+│   ├── A Survey of Free Math Fonts for TeX and LaTeX.pdf
+│   ├── A very minimal introduction to TikZ.pdf
+│   ├── bchart.pdf
+│   ├── beccari.pdf
+│   ├── ConTEXt the manual.pdf
+│   ├── csquotes.pdf
+│   ├── LaTeX数学字母表.pdf
+│   ├── LaTeX学习笔记_黄新刚.pdf
+│   ├── LaTeX学习笔记_Self.pdf
+│   ├── LaTeX学习笔记_zoho.pdf
+│   ├── LaTeX Alpha2.pdf
+│   ├── LaTeX MakeFile.pdf
+│   ├── Pgfplots-V1.11.pdf
+│   ├── pgfplots-V1.18.pdf
+│   ├── PGFTikZ绘图学习笔记_zoho.pdf
+│   ├── poster_landscape.pdf
+│   ├── psnfss2e.pdf
+│   ├── TColorBox Manual.pdf
+│   ├── The comprehensive LaTeX symbol list.pdf
+│   ├── THU_Thesis_Template.pdf
+│   ├── TikZ and Pgf Manual_1.18.pdf
+│   ├── TikZ and Pgf Manual_2.10.pdf
+│   ├── tikz_example【日文】.pdf
+│   ├── TikZiT软件使用指南.pdf
+│   ├── TikZ&PGF笔记3.13.pdf
+│   ├── TikZ&PGF笔记3.14b.pdf
+│   ├── VisualTikZ.pdf
+│   └── xeCJK.pdf
+├── Referrence_Project
+│   ├── 初等数学公式手册
+│   ├── 简单粗暴LaTeX
+│   ├── 潘建瑜--LaTeX讲义
+│   ├── 书稿排版小例子
+│   ├── 写给理科生的数学书
+│   ├── 最喜欢的LaTeX2 初学者指南【日文】
+│   ├── A2physics
+│   ├── annotate-equations
+│   ├── ascolorbox宏包
+│   ├── A Survey of Free Math Fonts for TEX and LaTeX
+│   ├── Classical-Mechanics-Notes
+│   ├── Elementary-math-note
+│   ├── Invitation
+│   ├── Latex 绘图学习【自制】
+│   ├── LATEX快速入门与提高
+│   ├── LaTeX速查
+│   ├── LaTeX综合学习
+│   ├── LaTeX-drawings
+│   ├── LaTeX-study-note
+│   ├── lshort-new-zh-cn-master
+│   ├── Matlab-命令笔记
+│   ├── mtp2lite
+│   ├── Mtpro2_Install_Tutorial
+│   ├── pgfplots_3D
+│   ├── pgfplots.Example-Full
+│   ├── tcolorbox
+│   ├── ThinkPython2-CN
+│   ├── TikZ-master-2D
+│   └── xetex_aboutfonts
+└── Struct.txt

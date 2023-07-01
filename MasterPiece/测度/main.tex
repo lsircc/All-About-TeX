@@ -1,0 +1,143 @@
+\documentclass[12pt]{article}
+\PassOptionsToPackage{quiet}{fontspec}
+\usepackage{ctex}
+\usepackage{Note}
+\usepackage[lite,subscriptcorrection,slantedGreek,nofontinfo]{mtpro2}
+
+\title{线性变换与测度}
+\author{04-15}
+\date{}
+\begin{document}
+\maketitle
+
+\section{题目}
+(题源\footnote[1]{题目来源：Stein实分析P32习题8})假定 $T$ 是 $\B{R}^d$ 上的线性变换，若 $E$ 是 $\B{R}^d$ 的可测子集，
+证明
+\begin{enumerate}
+    \item $T(E)$可测
+    \item $m(T(E)) = \big|\det (T)\big|\cdot m(E)$
+\end{enumerate}
+
+\vspace*{3em}
+\noindent\rule{.9\linewidth}{1pt}
+
+一些记号：
+
+1. $B$ 为方体 
+\begin{align*}
+    B = \left\{x\in \prod_{i=1}^{d}(\alpha_i, \beta_i]\;\bigg|\;\alpha_i\le \beta_i\right\}
+\end{align*}
+
+2. $A$ 为一零测集， 即 $m^*(A) = 0$
+
+
+
+\clearpage
+\section{解法1}
+定义一个映射 $T:\B{R}^d \lr \B{R}^d$
+\begin{Definition}[引理1]
+    $E$ 可测 \equ $\exists\; \{\C{F}_n\}_{n\ge 1}$与 $A$，使
+    \begin{align}
+        E = \mathop{\cup}\limits_{n=1}^{\infty}\C{F}_n\bigcup A
+    \end{align}
+     其中 $\C{F}_n$是闭集， $A$ 是零测度集
+\end{Definition}
+
+\begin{Definition}[引理2]
+    先假设以下的这个引理成立
+    \begin{align}
+        & A \subset B \lrr T(A) \subset T(B) \notag \\
+        & T(A\cup B) = T(A) \cup T(B)
+    \end{align}
+\end{Definition}
+
+\subsection{引理证明}
+$E$ 可测，则可以知道 $\forall A> 0$, $\exists$ 闭集  $\C{F}$, 使得
+$m^*(E-F) < \varepsilon,\; F\in E$ 。我们可以知道: $\exists \C{F}_n$
+使得 $m^*(E-\C{F}_n) < \frac{\varepsilon}{2^n}$,
+令  $F = \cup_{n=1}^{\infty}{\C{F}_n}$,则 $m^*(E-F) = m^*(E-\cup_{n=1}^{\infty}{\C{F}_n}) \le \varepsilon$.
+记 $A = E-F$即可。
+
+另一方面：若 $E = \cup_{n=1}^{\infty}\C{F}_n\bigcup A$,显然 $E$ 可测。
+$\square$
+
+\noindent{\bf (1)证明}
+
+根据引理(1)可知，$\exists$ 紧集列 $\{\C{F}_n\}_{n\ge 1}$与零测集 $A$， 
+使 $E = \cup_{n=1}^{\infty}{\C{F}_n}\bigcup A$,那么就有
+\begin{align}
+    T(E) = \cup_{n=1}^\infty{T(\C{F}_n)}\bigcup T(A)
+\end{align}
+此时显然可以知道 $T(E)$可测。
+
+\noindent{\bf (2)证明}
+
+$\forall \varepsilon > 0, \exists\;\{C_n\}_{n\ge 1} \supset E$,
+根据外侧度的次可加性有：
+\begin{align*}
+     & m^*(E) + \frac{\varepsilon}{\bigl|\det T\bigr|} \ge \sum_{n=1}^{\infty}{m^*(C_n)} \\
+\lrr & \bigl|\det T\bigr| \cdot m^*(E) + \varepsilon \ge \sum_{n=1}^{\infty}{m^*(T(C_n))} \\
+\mathop{\lrr}\limits^{\varepsilon \to 0} & \bigl|\det T\bigr| \cdot m^*(E) \ge {m^*(T(E))}
+\end{align*}
+
+对于 零测集 $A$ ,则 $\forall \varepsilon > 0,\; \exists\; \{C_n\}_{n\ge 1},\; C_n \in B$,有如下限制 
+\begin{align*}
+    \frac{\varepsilon}{\bigl|\det T\bigr|} \ge \sum_{n=1}^{\infty}{m^*(C_n)}
+    \lrr \varepsilon \ge \sum_{n=1}^{\infty}{\bigl|\det T\bigr|\cdot m^*(C_n)} 
+    = \sum_{n=1}^{\infty}{m^*(T(C_n))}
+     \ge m^*(T(A))
+\end{align*}
+
+使用 $T$ 的逆变换 $T^{-1}$ ，自然就可以得到反向的不等式
+\begin{align*}
+    \bigl|\det T^{-1}\bigr| \sum_{n=1}^{\infty}{m^*(T(C_n))} \ge \cdot m^*(E)
+\end{align*} 
+
+于是就有
+\begin{align*}
+    \bigl|\det T\bigr| \cdot m^*(E) = \sum_{n=1}^{\infty}{m^*(T(C_n))}
+\end{align*}
+
+\section{解法2}
+\noindent{\bf (1)证明}
+
+$E$  是一个紧集，则根据线性变换的连续性可以知道 $T(E)$ 也是一个紧集，
+于是根据紧集的性质，如下的关系成立:
+\begin{align*}
+    E = \bigcup_{n=1}^{N}{\C{F}_n} 
+      = \bigcup_{n=1}^{N}{\left(\bigcup_{k=1}^{K}{\C{F}_{n, k}}\right)} 
+\end{align*}
+
+其中的 $\C{F}_n$为紧集(因为：紧集可以使用有限个开覆盖覆盖，我们自然可以找到这样的有限个紧集覆盖)
+因为 $E$ 可测，于是 $R^d$中所有可测集构成一个 $F_{\sigma}$集。 应用线性变换后有：
+\begin{align*}
+    T(E) & = \bigcup_{n=1}^{N}{\left(\underbrace{\bigcup_{k=1}^{K}{T\left(\C{F}_{n, k}\right)}}_{F_\sigma \mbox{集}}\right)}\\
+         & = \bigcup_{n=1}^{N}\underbrace{T(\C{F}_n)}_{F_\sigma \mbox{集}}  \\
+    \lrr & T(E) \mbox{可测}(\mbox {因为可数个}F_\sigma \mbox{仍然为}F_\sigma\mbox{集} )  
+\end{align*}
+
+
+\noindent{\bf (2)证明}
+
+因为显然有 $\bigl|T(x) - T(x')\bigr| \le \sqrt{d}ML$,
+其中的 $M$ 方体 $B$
+的{\bf 直径},即 $M = \mathop{\max}\limits_{x_i, x_j \in B}|x_i-x_j|$。
+所以 线性变换  $T$实际上进行了如下的操作：对 $\forall x\in B$
+\begin{align*}
+    x = (x_1, x_2, \cdots, x_d) 
+    & \mathop{\lr}\limits^{T} x' = (\delta_1x_1, \delta_2x_2, \cdots, \delta_dx_d) \\
+    & \subset x'' = (\sqrt{d}Mx_1, \sqrt{d}Mx_2, \cdots, \sqrt{d}Mx_d)
+\end{align*}
+于是根据第(7)题类似的论证可以知道有 ：
+\begin{align*}
+    \bigl|\det T\bigr| m^*(E) \ge m^*(T(E))
+\end{align*}
+
+仿照第一种证明方法，我们进行相应的逆变换即可得到反向的不等式，于是即有：
+\begin{align*}
+    \bigl|\det T\bigr| \cdot m^*(E) = m^*(T(E))
+\end{align*}
+
+
+
+\end{document}

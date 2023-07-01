@@ -1,0 +1,51 @@
+\documentclass[12pt]{article}
+\PassOptionsToPackage{quiet}{fontspec}
+\usepackage[a4paper, total={6.5in, 10in}]{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{enumerate}
+\usepackage{tikz}
+\usepackage{ctex}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.17}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage[lite,subscriptcorrection,slantedGreek,nofontinfo]{mtpro2}
+
+\title{Gauss迭代}
+\author{zongpingD}
+\date{\today}
+\begin{document}
+\maketitle
+
+\section{对角占优矩阵}
+
+直接使用一个矩阵的行列式性质即可
+\begin{align}
+    C\equiv\lambda(D-L)-U=
+    \begin{bmatrix}\lambda a_{11}&a_{12}&\cdots&a_{1n}\\ 
+        \lambda a_{2}&\lambda a_{22}&\cdots&a_{2n}\\ 
+        \vdots&\vdots&&\vdots\\ 
+        \lambda a_{n1}&\lambda a_n&\cdots&\lambda a_n
+    \end{bmatrix}
+\end{align}
+
+\subsection{对角占优定理}
+对角占优定理需叙述如下:
+如果 $A = (a_{ij})_{n\times n}$ 为严格对角占优矩阵或者是
+不可约弱对角占优矩阵，则 $A$为非奇异矩阵
+
+有如下的证明过程
+\begin{align*}
+    \mid c_{ij}\mid
+    & = \mid\lambda a_in\mid>\mid\lambda\mid(\sum\limits_{j=1}^{j+1}\mid a_i\mid+\sum\limits_{j=i+1}^n\mid a_i\mid) \\
+    & \geq \sum_{j=1}^{i-1}\mid\lambda a_{ij}\mid+\sum_{j=i+1}^{n}\mid a_{ij}\mid\\
+    & =\sum_{j=1}^{n}\mid c_{ij}\mid i=1,2,\cdots,n.
+\end{align*}
+
+
+
+
+
+\end{document}
