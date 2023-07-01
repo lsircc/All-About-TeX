@@ -1,0 +1,82 @@
+上面的图片还可以分辨得出来吧 ？？
+
+我觉得不如我的手写，不如word！！
+真的不能再折腾TeX了，感觉这个东西在吸我的血！！！！
+感觉这玩意在我这里不再是一个工具了，反而我变成了它的工具人 !!!
+我的经历， 现在会回想起来，挺离谱的 ....
+
+注：以下TeX和LaTeX不加区分，不想区分
+
+1. 编辑器：vscode（MarkDown）->Lyx->TexWorks->TexStudio->VScode（LaTeX）->Vim -> Mathcha-> Vscode
+在线网站，latexive， overleaf， slager逛了个遍，学到了什么？？？
+2. OS： windows -> Unbuntu-> Arch-> windows+Android（Linux）
+3. DocumentClass：ctexart -> article -> standalone -> beamer
+4. 学习宏包 -> 自己开发宏包 -> 学习文档类 ->使用别人的文档类(ElegantLaTeX) -> 尝试写自己的文档类
+5. 出了BUG无从下手 -> 学会在网上找答案 -> 找到了看不懂 -> 看得懂 -> 能够自己DeBuG -> 能够解决别人的BUG
+6. 字体，字族，字形从最开始的傻傻分不清 -> 能够基本分别
+7. 版心，页眉， 页脚， 页边距， 基线， 行距, 制表 ...
+8. 屎山代码 -> 定义snippets ->了解JSON -> 自定义宏 -> LaTeX3语法 -> 宏编程（仅了解） -> 函数式编程（仅了解）
+9. 纯LaTeX -> Python 联合LaTeX -> MatLaB联合LaTeX ->  MMA联合LaTeX -> 纯LaTeX -> 尝试Plain TeX
+10. 我的tikz: TiKZiT -> LaTeXDraw -> GNUPlot -> GeoGebra -> MatLaB -> 纯TiKZ
+11. 成吨的Tex官方文档
+11. pdfTeX, pdfLaTeX, XeTeX, XeLaTeX, LuaTeX, BibTeX, dvipdf; GhostScript, Post, PsTrik, MetaPost;TeXLive, MiKTeX, CTeX;
+amsmath, float, graphics, graphicx, ctex, tikz, pgfplots, listings, xcolor, tcolorbox, cancel, amssymb, mathtools;
+还有很多的无用功 ...
+
+
+关键我还是一个人走过来的，周围就没有一个用TeX的;
+都是word过来， PPT过去的; 
+Visio来， OneNote去;
+你MarkDown， 他Mathjax的， 甚至还有类似Html的；
+Paper, Assignments, Note ... All is not TeX!!
+我有时想说一句,上面这些软件的功能TeX都能够很轻松，优雅的完成，但是我不敢。
+应为TeX的非所见即所得决定了就只有我这种傻子才回去学，所谓的优雅，轻松只不过是我的一面之词罢了。
+写个文章还要编程，那人是个傻子吧？
+画个图还要用代码，吹嘘着精确， 那个人是一个装逼怪吧？
+就离谱 ... 我怎么这么离谱的 ...
+
+周围几乎被MS和其他的标记语言围得水泄不通，我一个不会用word和PPT等MS那一套的TeX用户瑟瑟发抖 ....
+被MS统治的时代要来了吧 ....
+
+
+谁曾想， 当初的我就只想学习怎么在电脑上打出漂亮公式，现在会了；
+好吧, 我宁愿不会，用草稿纸多好啊.
+word 它不香吗? 它割了我的韭菜吗? 没有ma.
+mathtype 不香? Axmath不香? Axglyph不香? 草稿纸它不香?
+或者用SimpleTeX， Py2TeX， MathPiX之类的识别一下粘贴进去， 不香，吗？
+自己自欺欺人说这是纯代码，非所见即所得，这是TeX的情怀 ? 额，只是不想被MS打败罢了。---（仅针对我自己）
+或则是说自己太笨了，学不会MS那一套， 不想承认罢了。
+有时候写了一两千行代码， 一编译， 200个bug， 你人一下子就崩了。
+有时候你的bug数比你的代码还长，在TeX里边这是家常便饭，你得习惯。
+
+...
+再见了， 管你是什么tex ...
+并不是说TeX这个排版系统不好，人家 Donald Ervin Knuth老爷子都花了十年才弄出来的系统，岂是我这种垃圾敢去触碰的。
+我的境界也就这样吧 ...
+...
+
+哎 ...
+我当初为什么要学它呢？
+从大一 ---> 大二？
+暑假别人卷学业， 我TM熬夜卷TeX，我在肝什么？
+能够陶冶情操？
+能够装逼？
+能够避免被MS的那一套割韭菜？
+能够卷绩点?
+能够在网上的某个论坛瞎扯一番？
+能够在传播发扬TeX精神？
+能够 ...？
+到底能够干什么？
+我又到底学到了什么？？？？？？？？？？
+
+结果是什么呢?
+结果就是:
+到头来就学会了一个TeX， TeX的东西还越学越多,到头来TeX好像也没有学会！！！
+
+现在的结果就是，TeX没有学会，其他的事也荒废了 ...
+
+还有一个月期末， 从远离TeX开始 ...
+我终于认识到了，TeX的高尚， 高尚的TeX不是我这种垃圾可以触碰的 ...
+
+
+敬告大家：  入坑需谨慎！
